@@ -5,8 +5,8 @@
 #include <string>
 
 #include "sql_asserts.h"
-#include "SQLParser.h"
-#include "parser/bison_parser.h"
+#include "../src/SQLParser.h"
+#include "../src/parser/bison_parser.h"
 
 using namespace hsql;
 

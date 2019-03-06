@@ -1,0 +1,210 @@
+[
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/__/src/SQLParser.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/src/SQLParser.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/src/SQLParser.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/__/src/SQLParserResult.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/src/SQLParserResult.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/src/SQLParserResult.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/__/src/parser/bison_parser.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/src/parser/bison_parser.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/src/parser/bison_parser.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/sql_parser.dir/parser/conflict_test.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/src/parser/conflict_test.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/src/parser/conflict_test.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/__/src/parser/flex_lexer.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/src/parser/flex_lexer.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/src/parser/flex_lexer.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/__/src/sql/Expr.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/src/sql/Expr.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/src/sql/Expr.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/__/src/sql/PrepareStatement.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/src/sql/PrepareStatement.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/src/sql/PrepareStatement.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/__/src/sql/SQLStatement.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/src/sql/SQLStatement.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/src/sql/SQLStatement.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/__/src/sql/statements.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/src/sql/statements.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/src/sql/statements.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/__/src/util/sqlhelper.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/src/util/sqlhelper.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/src/util/sqlhelper.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/auto_query_file_test.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/test/auto_query_file_test.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/test/auto_query_file_test.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/prepare_tests.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/test/prepare_tests.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/test/prepare_tests.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/select_tests.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/test/select_tests.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/test/select_tests.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/sql_parser.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/test/sql_parser.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/test/sql_parser.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/sql_tests.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/test/sql_tests.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/test/sql_tests.cpp"
+ },
+ {
+  "directory": "/home/developer/sources/github/hyrise/sql-parser/cmake-build-debug",
+  "arguments": [
+   "/usr/bin/c++",
+   "-g",
+   "-std=gnu++14",
+   "-o",
+   "CMakeFiles/tests.dir/tpc_h_tests.cpp.o",
+   "-c",
+   "/home/developer/sources/github/hyrise/sql-parser/test/tpc_h_tests.cpp"
+  ],
+  "file": "/home/developer/sources/github/hyrise/sql-parser/test/tpc_h_tests.cpp"
+ }
+]

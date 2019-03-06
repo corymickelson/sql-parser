@@ -6,7 +6,7 @@
 #include <vector>
 
 #include "thirdparty/microtest/microtest.h"
-#include "SQLParser.h"
+#include "../src/SQLParser.h"
 
 // Read all lines from the given file path. Skips comment lines.
 std::vector<std::string> readlines(std::string path);

@@ -1,7 +1,7 @@
 #include "thirdparty/microtest/microtest.h"
 
-#include "SQLParser.h"
-#include "util/sqlhelper.h"
+#include "../src/SQLParser.h"
+#include "../src/util/sqlhelper.h"
 
 #include "sql_asserts.h"
 

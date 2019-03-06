@@ -1,7 +1,7 @@
 
 #include "thirdparty/microtest/microtest.h"
 #include "sql_asserts.h"
-#include "SQLParser.h"
+#include "../src/SQLParser.h"
 
 using hsql::kExprParameter;
 using hsql::kExprLiteralInt;
