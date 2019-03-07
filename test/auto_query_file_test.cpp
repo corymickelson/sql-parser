@@ -20,7 +20,7 @@ TEST(AutoQueryFileTest) {
   std::vector<std::string> query_files;
 
   // Parse command line arguments to retrieve query files.
-  uint i = 1;
+  unsigned int i = 1;
   for (; i < args.size(); ++i) {
     if (args[i] == "-f") {
       query_files.push_back(args[++i]);

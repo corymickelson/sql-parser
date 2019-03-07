@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.0)
 project(tests)
 file(GLOB TEST_FILES
         ../src/*.cpp
