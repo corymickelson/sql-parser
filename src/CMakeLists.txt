@@ -1,12 +1,18 @@
-file(GLOB SOURCE_FILES
+file(GLOB SQLPARSER_SOURCE_FILES
         *.cpp
-        *.h
         parser/*.cpp
-        parser/*.h
         sql/*.cpp
-        sql/*.h
         util/*.cpp
+        )
+file(GLOB SQLPARSER_HEADER_FILES
+        *.h
+        parser/*.h
+        sql/*.h
         util/*.h)
+	
+add_library(${PROJECT_NAME} ${SQLPARSER_SOURCE_FILES} ${SQLPARSER_HEADER_FILES})
+add_library(dep::sqlparser ALIAS ${PROJECT_NAME})
 
-add_library(${PROJECT_NAME} ${SOURCE_FILES})
-
+target_include_directories(${PROJECT_NAME}
+	PUBLIC 
+	${PROJECT_SOURCE_DIR}/src)
