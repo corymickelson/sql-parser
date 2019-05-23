@@ -88,19 +88,28 @@ namespace hsql {
     case kOpNot:
       inprint("NOT", numIndent);
       break;
+    case kOpExists:
+      inprint("EXISTS", numIndent);
+      break;
     default:
       inprintU(expr->opType, numIndent);
       break;
     }
-    printExpression(expr->expr, numIndent + 1);
-    if (expr->expr2 != nullptr) {
-        printExpression(expr->expr2, numIndent + 1);
-    } else if (expr->exprList != nullptr) {
-        for (Expr* e : *expr->exprList) printExpression(e, numIndent + 1);
+
+    if (expr->select) {
+      printSelectStatementInfo(expr->select, numIndent + 1);
+    } else {
+      printExpression(expr->expr, numIndent + 1);
+      if (expr->expr2 != nullptr) {
+          printExpression(expr->expr2, numIndent + 1);
+      } else if (expr->exprList != nullptr) {
+          for (Expr* e : *expr->exprList) printExpression(e, numIndent + 1);
+      }
     }
   }
 
   void printExpression(Expr* expr, uintmax_t numIndent) {
+    if (!expr) return;
     switch (expr->type) {
     case kExprStar:
       inprint("*", numIndent);
@@ -188,28 +197,33 @@ namespace hsql {
       else inprint("descending", numIndent + 2);
     }
 
-    if (stmt->limit != nullptr) {
+    if (stmt->limit != nullptr && stmt->limit->limit != nullptr) {
       inprint("Limit:", numIndent + 1);
-      inprint(stmt->limit->limit, numIndent + 2);
+      printExpression(stmt->limit->limit, numIndent + 2);
+    }
+
+    if (stmt->limit != nullptr && stmt->limit->offset != nullptr) {
+      inprint("Offset:", numIndent + 1);
+      printExpression(stmt->limit->offset, numIndent + 2);
     }
   }
 
 
 
   void printImportStatementInfo(const ImportStatement* stmt, uintmax_t numIndent) {
-    inprint("ImportStatment", numIndent);
+    inprint("ImportStatement", numIndent);
     inprint(stmt->filePath, numIndent + 1);
     inprint(stmt->tableName, numIndent + 1);
   }
 
   void printCreateStatementInfo(const CreateStatement* stmt, uintmax_t numIndent) {
-    inprint("CreateStatment", numIndent);
+    inprint("CreateStatement", numIndent);
     inprint(stmt->tableName, numIndent + 1);
-    inprint(stmt->filePath, numIndent + 1);
+    if (stmt->filePath) inprint(stmt->filePath, numIndent + 1);
   }
 
   void printInsertStatementInfo(const InsertStatement* stmt, uintmax_t numIndent) {
-    inprint("InsertStatment", numIndent);
+    inprint("InsertStatement", numIndent);
     inprint(stmt->tableName, numIndent + 1);
     if (stmt->columns != nullptr) {
       inprint("Columns", numIndent + 1);
